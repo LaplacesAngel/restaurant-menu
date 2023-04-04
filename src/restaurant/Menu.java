@@ -3,7 +3,7 @@ package restaurant;
 import java.util.ArrayList;
 import java.util.Date;
 
-
+//test commit for git bash testing
 public class Menu {
 
     private ArrayList<MenuItem> menuItems = new ArrayList<>();
