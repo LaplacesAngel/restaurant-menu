@@ -1,7 +1,7 @@
 package restaurant;
 
 import java.util.Calendar;
-
+import java.util.Objects;
 
 public class MenuItem {
     private String itemName;
@@ -9,7 +9,6 @@ public class MenuItem {
     private int price;
     private String category;
     private boolean newItem;
-
 
     public MenuItem(String itemName, String description, int price, String category, boolean newItem) {
         this.itemName = itemName;
@@ -55,12 +54,36 @@ public class MenuItem {
         this.category = category;
     }
 
-    public boolean isNewItem() {
-        return newItem;
+    public boolean isNew() {
+        return this.newItem;
     }
 
     public void setNewItem(boolean newItem) {
         this.newItem = newItem;
     }
 
+
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "itemName='" + itemName + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", category='" + category + '\'' +
+                ", newItem=" + newItem +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MenuItem)) return false;
+        MenuItem menuItem = (MenuItem) o;
+        return getItemName().equals(menuItem.getItemName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getItemName());
+    }
 }
