@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047a7d67-430f-430b-a814-c137a8d13fa8" name="Changes" comment="created the menu and menu items">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MenuItem.java" afterDir="false" />
-    </list>
+    <list default="true" id="047a7d67-430f-430b-a814-c137a8d13fa8" name="Changes" comment="created the menu and menu items, and got it to do stuff" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +51,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680569113663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created the menu and menu items, and got it to do stuff">
+      <created>1680833139307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680833139307</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the menu and menu items" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the menu and menu items" />
+    <MESSAGE value="created the menu and menu items, and got it to do stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the menu and menu items, and got it to do stuff" />
   </component>
 </project>
