@@ -14,10 +14,7 @@ public class Main {
         bacon.setItemName("Bakieboie");
         pancake.setDescription("Fluffy nice flour circles");
 
-        ArrayList<MenuItem> menuItems = new ArrayList<>();
-        menuItems.add(eggs);
-        menuItems.add(pancake);
-        menuItems.add(bacon);
+        ArrayList<MenuItem> menuItems = getMenuItems(eggs, pancake, bacon);
 
         Menu breakfast = new Menu();
 
@@ -43,5 +40,13 @@ public class Main {
 
 
 
+    }
+
+    private static ArrayList<MenuItem> getMenuItems(MenuItem eggs, MenuItem pancake, MenuItem bacon) {
+        ArrayList<MenuItem> menuItems = new ArrayList<>();
+        menuItems.add(eggs);
+        menuItems.add(pancake);
+        menuItems.add(bacon);
+        return menuItems;
     }
 }
